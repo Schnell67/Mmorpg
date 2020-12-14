@@ -9,4 +9,12 @@ public class Mage  extends Personnage {
 	    super.pointdevie = super.niveau *5 +10;
 	    this.mana = super.niveau *5;
 	}
+	
+	public Mage(String ps, int niv, int m) {
+		//equivalent a new Personnage(ps,niv)
+		super(ps,niv);
+		super.initiative = super.niveau + 3;
+		super.pointdevie = super.niveau *5 + 10;
+		this.mana = m;
+	}
 }
