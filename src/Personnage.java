@@ -1,8 +1,8 @@
 public class Personnage {
-	private String pseudo;
-	private int niveau;
-	private int pointdevie;
-	private int initiative;
+	protected String pseudo;
+	protected int niveau;
+	protected int pointdevie;
+	protected int initiative;
 	
 	public Personnage(String ps) {
 		this.pseudo = ps;
