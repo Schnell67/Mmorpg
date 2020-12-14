@@ -16,4 +16,7 @@ public class Guerrier extends Personnage {
         
         this.monture = m;
     }
+    
+    
+    
 }

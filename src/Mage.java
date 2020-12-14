@@ -17,4 +17,6 @@ public class Mage  extends Personnage {
 		super.pointdevie = super.niveau *5 + 10;
 		this.mana = m;
 	}
+	
+
 }

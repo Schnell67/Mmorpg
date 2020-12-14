@@ -45,4 +45,16 @@ public class Personnage {
 	public void soigner() {
 		this.pointdevie = this.niveau;
 	}
+	public int degats() {
+		int degat = 0;
+		degat = this.niveau;
+		return degat;
+	}
+	
+	public String toString() {
+        // ma méthode renvoie un String, je déclare une variable de type String
+      String message = "";
+        message = this.pseudo + " est de Niveau " + this.niveau + ", il a " + this.pointdevie + " et une initiative de " + this.initiative;
+      return message;
+   }
 }
